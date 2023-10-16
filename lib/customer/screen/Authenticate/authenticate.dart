@@ -1,4 +1,3 @@
-
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -9,20 +8,14 @@ import 'package:untitled5/customer/screen/Addvehcile/addvehicle.dart';
 
 import '../Test/Acess.dart';
 
+class Authenticate {
+  final auth = FirebaseAuth.instance;
 
-class Authenticate{
-  final auth= FirebaseAuth.instance;
-
-   isLogin(){
-    if(auth.currentUser!= null){
-      return CheckUserScreen();
+  isLogin() {
+    if (auth.currentUser != null) {
+      return const CheckUserScreen();
+    } else {
+      return const LoginScreen();
     }
-    else {
-      return LoginScreen();
-
-
-    }
-
   }
-
 }
