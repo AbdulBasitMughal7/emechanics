@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1024639534212",
+    "firebase_url": "https://e-mechanic-e822f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "e-mechanic-e822f",
+    "storage_bucket": "e-mechanic-e822f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024639534212:android:5ccbaba6c194e3b5f56ed1",
+        "android_client_info": {
+          "package_name": "com.E_Mechanic.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024639534212-gb4509jb47jeigaub3ut498nqk93oue1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARiA4ayS-0C-RR1w-5BbU84NHI0u75cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024639534212-gb4509jb47jeigaub3ut498nqk93oue1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024639534212:android:bc5383c0b8aa3219f56ed1",
+        "android_client_info": {
+          "package_name": "com.E_Mechanic.untitled5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024639534212-gb4509jb47jeigaub3ut498nqk93oue1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARiA4ayS-0C-RR1w-5BbU84NHI0u75cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024639534212-gb4509jb47jeigaub3ut498nqk93oue1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024639534212:android:e60cbbe22d50bd51f56ed1",
+        "android_client_info": {
+          "package_name": "com.mechanic.untitled4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024639534212-gb4509jb47jeigaub3ut498nqk93oue1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARiA4ayS-0C-RR1w-5BbU84NHI0u75cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024639534212-gb4509jb47jeigaub3ut498nqk93oue1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
