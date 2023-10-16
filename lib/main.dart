@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_final_fields
+
 import 'dart:developer';
 
 import 'package:firebase_core/firebase_core.dart';
@@ -52,6 +54,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   // This widget is the root of your application.
+  // ignore: unused_field
   Authenticate _authenticate = Authenticate();
 
   @override
@@ -63,7 +66,7 @@ class _MyAppState extends State<MyApp> {
 
           // primarySwatch: Colors.blue,
           ),
-      home: SplashScreen(),
+      home: const SplashScreen(),
     );
   }
 }

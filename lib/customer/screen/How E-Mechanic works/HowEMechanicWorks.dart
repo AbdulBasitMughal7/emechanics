@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
-
 class HowItWorksScreen extends StatelessWidget {
+  const HowItWorksScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
+          children: const [
             Text(
               'How E-Mechanics Works',
               style: TextStyle(
@@ -21,7 +22,7 @@ class HowItWorksScreen extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -77,7 +78,7 @@ class HowItWorksScreen extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          SizedBox(width: 16.0),
+          const SizedBox(width: 16.0),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -92,15 +93,15 @@ class HowItWorksScreen extends StatelessWidget {
                 ),
                 Text(
                   stepTitle,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 16.0,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                SizedBox(height: 8.0),
+                const SizedBox(height: 8.0),
                 Text(
                   stepDescription,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 16.0,
                   ),
                 ),
